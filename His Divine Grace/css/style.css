@@ -1,0 +1,197 @@
+/* common css design starts here */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.justify {
+  text-align: justify;
+}
+.common-h2 {
+  background-color: rgb(57, 121, 121, 0.5);
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.textarea {
+  height: 150px;
+  width: 100%;
+}
+.dotted-hr {
+  width: 50px;
+  border: solid 1px black;
+}
+p {
+  font-family: "Crimson Pro", serif;
+  font-size: 14pt;
+}
+
+/* common css design end here */
+
+/* header css design starts here */
+
+/* navbar design starts here */
+
+.bg-nav {
+  background-color: #397979;
+}
+.nav-link {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  transform: scale(1.03);
+  color: lightblue;
+}
+
+/* navbar design end here */
+
+/* banner design starts here */
+.banner {
+  background-color: gray;
+  margin-top: 90px;
+  background-image: url(/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content h1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Licorice", cursive;
+  font-size: 5vw;
+  transition: 0.4s;
+}
+.banner-content h1:hover {
+  transform: scale(1.1);
+}
+
+/* banner design end here */
+
+/* header css design end here */
+
+/* gallary css design starts here */
+
+.gallay-content {
+  background-color: rgb(57, 121, 121, 0.2);
+}
+.gallary-container img {
+  margin: 50px 0px;
+  box-shadow: -3px -3px 3px black;
+  transition: 0.5s;
+}
+.gallary-container img:hover {
+  transform: scale(1.2);
+  border: none;
+  box-shadow: none;
+}
+
+/* gallary css design end here */
+
+/* features css design starts here */
+
+.card {
+  background-color: #a65e5e;
+  box-shadow: -3px -3px 3px black;
+  transition: 0.3s;
+  color: white;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: none;
+  border: 1px solid blue;
+}
+
+/* features css design end here */
+
+/* about-me css design starts here */
+
+.profile-section {
+  background-color: wheat;
+  border: 5px solid salmon;
+}
+.profile-img img {
+  padding: 2px;
+  transition: 1s;
+}
+.profile-img img:hover {
+  transform: scale(1.1);
+  border: 2px solid blue;
+}
+
+/* about-me css design end here */
+
+/* Books css design starts here */
+
+.slideimg {
+  width: 75%;
+  margin: auto;
+  border: 1px solid blue;
+}
+.slideimg:hover {
+  box-shadow: -3px -3px 3px black;
+  border: none;
+}
+
+/* books css design end here */
+
+/* footer css design starts here */
+
+.footer-row-content {
+  background-color: #575757;
+  color: white;
+}
+.footer-copyright {
+  background-color: #333333;
+  color: #c4c4c4;
+}
+
+/* footer css design end here */
+
+/* Responsive media qurey starts here */
+
+@media screen and (max-width: 575px) {
+  p {
+    font-family: "Crimson Pro", serif;
+    font-size: 12pt;
+  }
+  .banner-content h1 {
+    font-size: 10vw;
+  }
+
+  .font575 {
+    font-size: 3vw;
+  }
+  .nav-font575 {
+    font-size: 3vw;
+  }
+
+  .banner-text {
+    margin-top: 250px;
+    border: none;
+  }
+  .slideimg {
+    width: 100%;
+  }
+  .gallary-container img {
+    margin: 10px 0px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  p {
+    font-family: "Crimson Pro", serif;
+    font-size: 16pt;
+  }
+  .banner-content h1 {
+    font-size: 5vw;
+  }
+
+  .font575 {
+    font-size: 3vw;
+  }
+  .nav-font575 {
+    font-size: 2vw;
+  }
+}
+
+/* Responsive media qurey end here */
